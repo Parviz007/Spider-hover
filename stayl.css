@@ -1,0 +1,141 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+
+.content {
+
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.content .fotocontent {
+
+    width: 80%;
+    height: 80%;
+    border-radius: 100px;
+    display: flex;
+    position: relative;
+    background-color: transparent;
+
+}
+
+
+.content .fotocontent .bir .img1 {
+
+    clip-path: polygon(0 0, 65% 0, 30% 100%, 0% 100%);
+
+
+}
+
+.content .fotocontent .bir {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+
+}
+
+
+.content .fotocontent .bir .box {
+    width: 25%;
+    height: 80vh;
+    transition: 1s;
+
+
+}
+
+
+.content .fotocontent .bir .yak {
+    width: 50%;
+    position: absolute;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    clip-path: polygon(100% 0, 100% 0, 0 0, 0 100%);
+    z-index: 12;
+   
+
+
+}
+
+.content .fotocontent .bir .du {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    border-bottom-left-radius: 100px;
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+    z-index: 9;
+
+}
+
+.content .fotocontent .bir .se {
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    border-top-right-radius: 100px;
+    clip-path: polygon(100% 0, 100% 0, 0 0, 0 100%);
+    z-index: 9;
+
+
+}
+
+
+.content .fotocontent .bir .chor {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+    z-index: 9;
+    border-top-right-radius: 100px;
+
+
+
+
+}
+
+
+
+.content .fotocontent .yak:hover {
+    width: 100%;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    z-index: 18;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+}
+
+.content .fotocontent .du:hover {
+    width: 100%;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    z-index: 20;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+}
+.content .fotocontent .se:hover {
+    width: 100%;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    z-index: 20;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+}
+.content .fotocontent .chor:hover {
+    width: 100%;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    z-index: 20;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+}
